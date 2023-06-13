@@ -2,6 +2,7 @@ import Sevak from '../assets/projects/Sevak.jpg'
 import Formify from '../assets/projects/FORMIFY.png'
 import Edge from '../assets/projects/edge.jpg'
 import co from '../assets/projects/club.png'
+import ta from '../assets/projects/favicon.png'
 export const data=[
     {
         id:1,
@@ -111,6 +112,23 @@ export const data=[
             },
           ],
     },
+    {
+      id:5,
+      name:"Portfolio",
+      image:ta,
+      github:"https://github.com/tarun-hegde/Portfolio",
+      text:"My Portfolio Website.",
+      stack: [
+          {
+            id: "1",
+            name: "ReactJS"
+          },
+          {
+            id: "2",
+            name: "TailwindCss"
+          },
+        ],
+  },
 
 
 ]
