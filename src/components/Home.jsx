@@ -17,9 +17,7 @@ const Home = () => {
           I'm a Software Enthusiast.
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
-        I am passionate about building excellent software that improves the lives of those around me.
-         I specialize in creating software for clients ranging from individuals and small-businesses all the way to large enterprise corporations. 
-         What would you do if you had a software expert available at your fingertips?
+        I am a keen learner and a passionate developer. I love to build things that are useful and solve real-world problems. I am a self-taught developer and I love to learn new technologies and frameworks. 
         </p>
         <div>
           <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-sky-600 hover:border-sky-600'>
