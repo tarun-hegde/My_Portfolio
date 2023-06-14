@@ -59,29 +59,16 @@ const Navbar = () => {
           </Link>
         </li>
         <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='about' smooth={true} duration={500}>
-            About
+          {'Skills'}
+          <Link onClick={handleClick} to='/skills' smooth={true} duration={500}>
           </Link>
         </li>
         <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
-            Skills
+          {'Projects'}
+          <Link onClick={handleClick} to='/projects' smooth={true} duration={500}>
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-            Work
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
-            Contact
-          </Link>
-        </li>
+
       </ul>
 
       {/* Social icons */}
