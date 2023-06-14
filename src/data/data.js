@@ -3,6 +3,16 @@ import Formify from '../assets/projects/FORMIFY.png'
 import Edge from '../assets/projects/edge.jpg'
 import co from '../assets/projects/club.png'
 import ta from '../assets/projects/favicon.png'
+import {
+  SiDjango,
+  SiJavascript,
+  SiBootstrap,
+  SiReact,
+  SiTailwindcss,
+  SiHtml5,
+  SiCss3,
+  SiMailchimp
+} from "react-icons/si";
 export const data=[
     {
         id:1,
@@ -13,23 +23,29 @@ export const data=[
         stack: [
             {
               id: "1",
-              name: "Django"
+              name: "Django",
+              icon: SiDjango 
             },
             {
               id: "2",
-              name: "Bootstrap"
+              name: "Bootstrap",
+              icon: SiBootstrap
             },
             {
               id: "3",
-              name: "JavaScript"
+              name: "JavaScript",
+              icon: SiJavascript
             },
             {
               id: "4",
-              name: "HTML "
+              name: "HTML ",
+              icon: SiHtml5
             },
             {
               id: "5",
-              name: "CSS"
+              name: "CSS",
+              icon: SiCss3
+
             },
           ],
     },
@@ -38,19 +54,23 @@ export const data=[
         name:"Formify",
         image:Formify,
         github:"https://github.com/tarun-hegde/Formify",
-        text:"Formify is a Feedback Form Application where the user on submitting the feedback to the organisation receives as well as sends the email of the feedback enterd by him/her.",
+        text:"Formify is a Feedback Form Application in which the user receives and sends the email of the feedback given by him/her after submitting it to the organisation.",
         stack: [
             {
               id: "1",
-              name: "Django"
+              name: "Django",
+              icon: SiDjango
+
             },
             {
               id: "2",
-              name: "Bootstrap"
+              name: "Bootstrap",
+              icon: SiBootstrap
             },
             {
               id: "3",
-              name: "SMTP"
+              name: "SMTP",
+              icon: SiMailchimp
             },
           ],
     },
@@ -63,23 +83,29 @@ export const data=[
         stack: [
             {
               id: "1",
-              name: "Django"
+              name: "Django",
+              icon: SiDjango
             },
             {
               id: "2",
-              name: "Bootstrap"
+              name: "Bootstrap",
+              icon: SiBootstrap
+
             },
             {
               id: "3",
-              name: "JavaScript"
+              name: "JavaScript",
+              icon: SiJavascript
             },
             {
               id: "4",
-              name: "HTML "
+              name: "HTML ",
+              icon: SiHtml5
             },
             {
               id: "5",
-              name: "CSS"
+              name: "CSS",
+              icon: SiCss3
             },
           ],
     },
@@ -92,23 +118,28 @@ export const data=[
         stack: [
             {
               id: "1",
-              name: "Django"
+              name: "Django",
+              icon: SiDjango
             },
             {
               id: "2",
-              name: "Bootstrap"
+              name: "Bootstrap",
+              icon: SiBootstrap
             },
             {
               id: "3",
-              name: "JavaScript"
+              name: "JavaScript",
+              icon: SiJavascript
             },
             {
               id: "4",
-              name: "HTML "
+              name: "HTML ",
+              icon: SiHtml5
             },
             {
               id: "5",
-              name: "CSS"
+              name: "CSS",
+              icon: SiCss3
             },
           ],
     },
@@ -116,16 +147,18 @@ export const data=[
       id:5,
       name:"Portfolio",
       image:ta,
-      github:"https://github.com/tarun-hegde/Portfolio",
+      github:"https://github.com/tarun-hegde/My_Portfolio",
       text:"My Portfolio Website.",
       stack: [
           {
             id: "1",
-            name: "ReactJS"
+            name: "ReactJS",
+            icon: SiReact
           },
           {
             id: "2",
-            name: "TailwindCss"
+            name: "TailwindCss",
+            icon: SiTailwindcss
           },
         ],
   },

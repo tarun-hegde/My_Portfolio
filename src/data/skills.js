@@ -3,12 +3,12 @@ import CSS from      "../assets/css.png";
 import JS from       "../assets/javascript.png";
 import REACT from    "../assets/react.png";
 import NODE from     "../assets/node.png";
-import CPP from    "../assets/Cpp.jpg";
+import CPP from    "../assets/Cpp.png";
 import GITHUB from  "../assets/github.png";
 import Tailwind from    "../assets/tailwind.png";
-import DJANGO from   "../assets/django.jpg";
+import DJANGO from   "../assets/django.png"
 import BOOTSTRAP from   "../assets/bootstrap.jpeg";
-import PYTHON from '../assets/python.jpg';
+import PYTHON from '../assets/python.png';
 import GIT from '../assets/git.png';
 
 export const skills=[

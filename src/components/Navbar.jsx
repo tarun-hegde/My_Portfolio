@@ -7,7 +7,7 @@ import {
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-
+import fav from '../assets/favicon.png'
 
 import { Link } from 'react-scroll';
 
@@ -16,9 +16,9 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000f26] text-gray-300'>
-      <div>
-        <p className='w-80  text-blue-200'>My Portfolio</p>
+    <div className='fixed w-full h-[80px] flex justify-between items-center rounded-md px-4 bg-[#000f26] text-gray-300'>
+      <div >
+     <img src={fav} className='pt-3 mt-3 py-6 w-[85px] h-[105px] rounded-lg'></img>
       </div>
 
       {/* menu */}
@@ -59,13 +59,13 @@ const Navbar = () => {
           </Link>
         </li>
         <li className='py-6 text-4xl'>
-          {'Skills'}
-          <Link onClick={handleClick} to='/skills' smooth={true} duration={500}>
+          <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
+            Skills
           </Link>
         </li>
         <li className='py-6 text-4xl'>
-          {'Projects'}
-          <Link onClick={handleClick} to='/projects' smooth={true} duration={500}>
+          <Link onClick={handleClick} to='projects' smooth={true} duration={500}>
+          Projects
           </Link>
         </li>
 
