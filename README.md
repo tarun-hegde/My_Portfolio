@@ -25,7 +25,7 @@ I followed instructions in [Netlify](https://docs.netlify.com/) docs to deploy m
 - Projects
 - Footer
 
-## Installation Guide 🧑
+## Installation Guide 
 
 ### Using Git and Github
 
