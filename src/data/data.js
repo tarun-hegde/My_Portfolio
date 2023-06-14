@@ -147,7 +147,7 @@ export const data=[
       id:5,
       name:"Portfolio",
       image:ta,
-      github:"https://github.com/tarun-hegde/My_Portfolio",
+      github:"https://github.com/tarun-hegde/Portfolio",
       text:"My Portfolio Website.",
       stack: [
           {
