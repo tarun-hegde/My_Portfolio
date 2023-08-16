@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center rounded-md px-4 bg-[#000f26] text-gray-300'>
       <div >
-     <img src={fav} className='pt-3 mt-3 py-6 w-[85px] h-[105px] rounded-lg'></img>
+     <p className="pl=1 color-[#000f26] text-3xl"><b>Portfolio</b></p>
       </div>
 
       {/* menu */}
@@ -98,14 +98,14 @@ const Navbar = () => {
               Email <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+          {/* <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='https://drive.google.com/file/d/1KHsDFPx5LWdOtVgT5HL2cAJ-9Hy5vkpJ/view?usp=sharing'
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>

@@ -76,10 +76,10 @@ export const data=[
     },
     {
         id:3,
-        name:"Club Organiser",
+        name:"ClubApp",
         image:co,
         github:"https://github.com/tarun-hegde/SocialMediaManagement_Clubs",
-        text:"Club Organiser is a Full-Stack Web Application where College Clubs can notify events as well as assign tasks to the club members specifying deadlines.",
+        text:"ClubApp is a Full-Stack Web Application where student can list down all their College Clubs  tasks/subtasks specifying deadlines.",
         stack: [
             {
               id: "1",
